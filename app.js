@@ -1,5 +1,5 @@
   const taskInput = document.getElementById('taskInput');
-    const taskList = document.getElementById('taskList');
+  const taskList = document.getElementById('taskList');
 
     let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 
@@ -12,7 +12,7 @@
       tasks.forEach((task, index) => {
         const li = document.createElement('li');
         li.className = task.completed ? 'completed' : '';
-
+        li.style.color = '#000';
         const span = document.createElement('span');
         span.textContent = task.text;
         span.style.flex = '1';
