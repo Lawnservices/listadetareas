@@ -70,3 +70,7 @@
 
     // Mostrar las tareas guardadas al cargar la página
     renderTasks();
+
+console.log('%c¡Detente!', 'font-size: 40px; color: blue;');
+
+console.log('%c¡Alvertncia!', 'font-size: 40px; color: red;');
